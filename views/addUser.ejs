@@ -42,9 +42,9 @@
         <h2 style="margin-bottom: 23px;">coding community</h2>
         <form method="POST" action="/user/new">
             <h4>Your Account ID: <input type="text" name="id" value="<%= id %>" id="wid" readonly></h4>
-            <input type="text" name="username" placeholder="enter username">
-            <input type="email" name="email" placeholder="email-id">
-            <input type="password" name="password" placeholder="enter password">
+            <input type="text" name="username" placeholder="enter username" required>
+            <input type="email" name="email" placeholder="email-id" required>
+            <input type="password" name="password" placeholder="enter password" required>
             <button class="btn btn-info">Join community</button>
         </form>
     </div>
